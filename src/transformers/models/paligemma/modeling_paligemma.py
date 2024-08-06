@@ -391,8 +391,8 @@ class PaliGemmaForConditionalGeneration(PaliGemmaPreTrainedModel):
         >>> import requests
         >>> from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
 
-        >>> model = PaliGemmaForConditionalGeneration.from_pretrained("google/PaliGemma-test-224px-hf")
-        >>> processor = AutoProcessor.from_pretrained("google/PaliGemma-test-224px-hf")
+        >>> model = PaliGemmaForConditionalGeneration.from_pretrained("google/paligemma-3b-mix-224")
+        >>> processor = AutoProcessor.from_pretrained("google/paligemma-3b-mix-224")
 
         >>> prompt = "answer en Where is the cow standing?"
         >>> url = "https://huggingface.co/gv-hf/PaliGemma-test-224px-hf/resolve/main/cow_beach_1.png"
